@@ -1,0 +1,9 @@
+create table employee 
+(
+	empl_id int primary key auto_increment,
+    empl_name varchar(30),
+    hourly_rate double,
+    email varchar(50)
+);
+
+insert into employee values(null, 'sam', 10, 'sam@mail.com');
